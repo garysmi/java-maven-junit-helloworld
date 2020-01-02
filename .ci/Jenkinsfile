@@ -4,7 +4,7 @@ pipeline {
     }
     tools {
         maven 'mvn-default'
-        jdk 'jdk-default'
+        jdk 'jdk-java8'
     }
     stages {
         stage ('Build') {
